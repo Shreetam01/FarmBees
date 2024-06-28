@@ -1,0 +1,20 @@
+.discuss{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 99;
+    right: 50px;
+    bottom: 30px;
+}
+.discuss img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}

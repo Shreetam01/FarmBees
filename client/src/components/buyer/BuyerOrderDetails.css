@@ -1,0 +1,29 @@
+.order-dtls-buttopn-container{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.order-sts-updater-btn{
+    /* width: 45%; */
+    border: none;
+    color: white;
+    width: max(45%,200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.bg-clr-green{
+    background-color: green;
+}
+.bg-clr-red{
+    background-color: red;
+}
+.clr-yellow{
+    color: rgb(251, 214, 7);
+}
+.clr-red{
+    color: red;
+}

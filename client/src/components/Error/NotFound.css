@@ -1,0 +1,25 @@
+.not-found-page{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.not-found-page h1{
+    font-size: 54px;
+}
+.clr-red{
+    color: red;
+}
+.return-home-btn{
+    width: 200px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #26D367;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 30px 0;
+    text-align: center;
+}

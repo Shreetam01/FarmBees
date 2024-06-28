@@ -1,0 +1,77 @@
+/* ChatPage.css */
+.chat-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .chat-header {
+    padding: 16px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .chat-body {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 75%;
+    word-wrap: break-word;
+  }
+  
+  .chat-message.EXPERT {
+    border: 1px solid #6eec72;
+    /* color: white; */
+    align-self: flex-end;
+  }
+  .chat-message.FARMER {
+    /* justify-content: flex-start; */
+    background-color: #4caf50;
+  }
+  
+  .chat-footer {
+    display: flex;
+    padding: 16px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    gap: 10px;
+  }
+  
+  .chat-footer input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .chat-footer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .chat-footer button:hover {
+    background-color: #45a049;
+  }
+  #bg-red{
+    background-color: red;
+  }

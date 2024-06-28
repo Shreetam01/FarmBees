@@ -1,0 +1,25 @@
+.product-dtls-button-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.product-sts-updater-btn {
+    border: none;
+    color: white;
+    width: max(45%, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.product-dtls-button-container button {
+    width: 100px;
+}
+
+.product-sts-updater-btn {
+    width: 100%;
+}

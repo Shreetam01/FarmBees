@@ -1,0 +1,10 @@
+.login-popup-inputs textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+.login-popup-inputs button{
+    background-color: #26D367;
+}

@@ -1,0 +1,53 @@
+.becomeSellerCard{
+    width: 100%;
+    height: 500px;
+    margin: 30px auto;
+    background: url('./Banner3.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+.buter-ad-contents a{
+    /* margin: auto; */
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: #fff;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+}
+.tac{
+    text-align: center;
+}
+.jcc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w100{
+    width: 100%;
+}
+.buter-ad-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    justify-content: center;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+    text-align: left;
+}
+.buter-ad-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+}
+.buter-ad-contents p{
+    color: white;
+    font-size: 1vw;
+    max-width: 80%;
+}
